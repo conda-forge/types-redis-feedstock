@@ -1,5 +1,5 @@
 {% set name = "types-redis" %}
-{% set version = "4.1.13" %}
+{% set version = "4.1.14" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/types-redis-{{ version }}.tar.gz
-  sha256: d982508b5e74f2d5ef7d784fb67ffff64e5b10dc4b197812aa024d05ee599102
+  sha256: e559ab7417bc8a70da7999e9a9610b5219da032a32fb1354c3f80366c47feac8
 
 build:
   number: 0
