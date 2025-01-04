@@ -23,6 +23,8 @@ requirements:
     - cryptography
     - python >={{ python_min }}
     - types-pyopenssl
+    # can be removed after https://github.com/conda-forge/types-pyopenssl-feedstock/pull/49
+    - types-cffi
 test:
   requires:
     - pip
