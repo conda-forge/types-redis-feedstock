@@ -20,8 +20,9 @@ requirements:
     - python {{ python_min }}
     - setuptools
   run:
+    - cryptography
     - python >={{ python_min }}
-
+    - types-pyopenssl
 test:
   requires:
     - pip
